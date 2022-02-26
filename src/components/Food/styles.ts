@@ -24,6 +24,7 @@ export const Container = styled.div<ContainerProps>`
     img {
       pointer-events: none;
       user-select: none;
+      max-width: 352px
     }
   }
 
