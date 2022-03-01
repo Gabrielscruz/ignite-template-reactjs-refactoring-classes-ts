@@ -1,12 +1,28 @@
 {
   "foods": [
     {
-      "id": 1,
-      "name": "Ao molho",
-      "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas",
-      "price": "19.90",
+      "image": "https://caldobom.com.br/uploads/2017/07/pizza-mussarela.jpg",
+      "name": "Pizza de mussarela",
+      "price": "28.50",
+      "description": " molho de tomate, queijo mussarela, rodelas de tomate e orégano",
       "available": true,
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png"
+      "id": 1
+    },
+    {
+      "image": "https://i.ytimg.com/vi/FrdumyhYaZY/maxresdefault.jpg",
+      "name": "Lasanha à Bolonhesa",
+      "price": "16.00",
+      "description": "Receita de Lasanha com molho bolonhesa e molho branco, feitos com com MAGGI Caldo de Carne e Creme de Leite NESTLÉ",
+      "available": false,
+      "id": 2
+    },
+    {
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
+      "name": "Camarão",
+      "price": "25.90",
+      "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
+      "available": true,
+      "id": 4
     }
   ]
 }

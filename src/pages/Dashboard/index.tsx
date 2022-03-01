@@ -25,14 +25,14 @@ export default function  Dashboard () {
   ,[])
 
   async function handleAddFood(food:FoodInterface){
-    try{
-      const response = await api.post('/foods',{
+    try {
+      const response = await api.post('/foods', {
         ...food,
-        available:true
-      })
+        available: true,
+      });
 
-      setFoods( [...foods, response.data] )
-    }catch(err){
+      setFoods([...foods, response.data])
+    } catch (err) {
       console.log(err);
     }
   }
@@ -52,7 +52,7 @@ export default function  Dashboard () {
         f.id !== foodUpdated.data.id ? f : foodUpdated.data,
       );
 
-      setFoods( foodsUpdated );
+      setFoods(foodsUpdated);
     } catch (err) {
       console.log(err);
     }
